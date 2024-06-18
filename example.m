@@ -5,6 +5,7 @@ clc
 % files.mat contains two (room) impulse responses, both generated through
 % the image source method. h_real is used to generate the signal, h_prior is
 % used as a prior to estimate h_real. Also contains sampling frequency.
+addpath Functions\
 load("files.mat")
 Nh = length(h_prior);
 N = 350; %length of input signal
