@@ -1,4 +1,4 @@
-# IR_estimation_simulated_prior
+# Room Impulse Response Estimation using Optimal Transport: Simulation-Informed Inference
 This repository provides code for simulation-informed room impulse response estimation. We incorporate the simulated prior by the means of an optimal transport regularizer, which is robust for errors in both the amplitude and delay structure of the simulated prior. 
 
 # Getting started:
